@@ -5,7 +5,7 @@ use thiserror::Error;
 pub enum EscrowError {
     #[error("Invalid Instruction")]
     InvalidInstruction,
-    #[error("Rent not exempt")]
+    #[error("Rent not exempt.")]
     NotRentExempt,
 }
 
